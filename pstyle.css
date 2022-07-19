@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    height: 100%;
+    width: 100%;
+    
+}
+/*.btn{
+    margin-left: 0;
+   color: black;
+   font-size: 2em;
+   list-style-type: none;
+   height: fit-content;
+   text-align: center;
+   margin-left: 0pc;
+   display: inline-block;
+   padding-left: 0px;
+   background-color: yellowgreen;
+
+   
+}*/
+.btn1{
+   padding-left: 0px;
+   background-color: blueviolet;
+   width: auto;
+   display: inline;
+}
+.btn2{
+    padding-left: 0px;
+    background-color: blueviolet;
+    text-align: center;
+    width: auto;
+    display: inline;
+}
+
+
+    .container{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+       
+    }
+    .outer{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/bg3.jpg);
+        background-size: cover;
+        animation: animate 16s ease infinite;
+    
+        
+    }
+    .outer img{
+        opacity: 0;
+    }
+.details{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    bottom: 75%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    color: rgb(211, 224, 32);
+
+}
+.details h2{
+    font-size: 2em;
+    color: rgb(252, 248, 5);
+    text-align: left;
+
+}
+.details h1{
+    font-size: 4em;
+    color: rgb(35, 247, 105);
+
+}
+
+@keyframes animate{
+    0%{
+        background-image: url('img/bg1.avif');
+    }
+    20%{
+        background-image: url('img/bg2.avif');
+    }
+    20.01%{
+        background-image: url('img/bg3.jpg');
+    }
+    40%{
+        background-image: url('img/bg4.jpg');
+    }
+    40.01%{
+        background-image: url('img/bg5.avif');
+    }
+    60%{
+        background-image: url('img/bg6.avif');
+    }
+    60.01%{
+        background-image: url('img/bg7.avif');
+    }
+    80%{
+        background-image: url('img/bg8.avif');
+    }
+    80.01%{
+        background-image: url('img/bg9.avif');
+    }
+    100%{
+        background-image: url('img/bg10.avif');
+    }
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 2em;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: red;
+  }
+  
